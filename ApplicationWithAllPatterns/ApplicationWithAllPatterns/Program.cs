@@ -1,5 +1,4 @@
-﻿using Strategy;
-using System;
+﻿using ApplicationWithAllPatterns.BehaviorPatterns;
 
 namespace ApplicationWithAllPatterns
 {
@@ -7,14 +6,8 @@ namespace ApplicationWithAllPatterns
     {
         static void Main(string[] args)
         {
-            IStrategy strategy = new FirstExampleStrategy();
-            strategy.Make();
-
-            strategy = new SecondExampleStrategy();
-            strategy.Make();
-
-            strategy = new ThirdExampleStrategy();
-            strategy.Make();
+            StrategyPattern.Make();
         }
+
     }
 }

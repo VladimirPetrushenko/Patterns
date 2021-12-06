@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationWithAllPatterns"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{CD09C32D-4180-4B36-8FDB-6015344313B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{326DC838-D1CE-445A-AEA1-E329CBB99365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CD09C32D-4180-4B36-8FDB-6015344313B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD09C32D-4180-4B36-8FDB-6015344313B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD09C32D-4180-4B36-8FDB-6015344313B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326DC838-D1CE-445A-AEA1-E329CBB99365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326DC838-D1CE-445A-AEA1-E329CBB99365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326DC838-D1CE-445A-AEA1-E329CBB99365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326DC838-D1CE-445A-AEA1-E329CBB99365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
