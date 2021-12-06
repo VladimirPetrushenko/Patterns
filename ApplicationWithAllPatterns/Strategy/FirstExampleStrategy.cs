@@ -1,5 +1,4 @@
 ﻿using Strategy.FirstExample;
-using System;
 
 namespace Strategy
 {
@@ -7,14 +6,11 @@ namespace Strategy
     {
         public void Make()
         {
-            Console.WriteLine("start first strategy");
             IMove mover = new Car();
             mover.Move();
 
             mover = new Horse();
             mover.Move();
-
-            Console.WriteLine("End");
         }
     }
 }

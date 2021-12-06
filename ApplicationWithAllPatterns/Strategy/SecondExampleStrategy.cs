@@ -1,6 +1,5 @@
 ﻿using Strategy.SecondExample;
 using System;
-using System.Collections.Generic;
 
 namespace Strategy
 {
@@ -8,8 +7,6 @@ namespace Strategy
     {
         public void Make()
         {
-            Console.WriteLine("Start second strategy");
-
             var list = CreateListEmployee.Create();
 
             list.Sort(new EmployeeByIdComparer());
@@ -24,7 +21,6 @@ namespace Strategy
             {
                 Console.WriteLine(e);
             }
-            Console.WriteLine("End");
         }
     }
 }

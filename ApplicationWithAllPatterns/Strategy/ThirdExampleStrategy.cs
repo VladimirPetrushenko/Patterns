@@ -9,8 +9,6 @@ namespace Strategy
     {
         public void Make()
         {
-            Console.WriteLine("Start third strategy");
-
             IComparer<Employee> comparer = new EmployeeByIdComparer();
             var list = CreateListEmployee.Create();
 
@@ -30,7 +28,6 @@ namespace Strategy
             {
                 Console.WriteLine(e);
             }
-            Console.WriteLine("End");
         }
     }
 }
