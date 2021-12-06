@@ -1,5 +1,20 @@
-﻿
+﻿Шаблонный метод простыми словами это публичный метод, в нутри абстрактного класса, который в нутри себя вызывает абстрактные и обычные методы абстрактного класса.
+Например 
+abstract class elexir
+{
+	protected void Start() => Console.WriteLine("Start");
+	protected abstract void CreateSomething();
+	public void Make(){
+		Start();
+		CreateSomething();
+	}
+}
+class tea : elexir
+{
+	protected override void CreateSomething() => Console.WriteLine("Create Tead");
+}
 
+Make - Шаблонный метод
 
 
 Назначение
