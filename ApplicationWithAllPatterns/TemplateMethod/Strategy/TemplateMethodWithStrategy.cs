@@ -1,5 +1,4 @@
 ﻿using Strategy;
-using System;
 
 namespace TemplateMethod.Strategy
 {
