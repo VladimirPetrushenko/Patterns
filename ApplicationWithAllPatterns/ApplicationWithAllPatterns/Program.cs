@@ -6,8 +6,9 @@ namespace ApplicationWithAllPatterns
     {
         static void Main(string[] args)
         {
-            StrategyPattern.Make();
-            TemplateMethodPattern.Make();
+            //StrategyPattern.Make();
+            //TemplateMethodPattern.Make();
+            MediatorPattern.Make();
         }
 
     }
