@@ -8,7 +8,8 @@ namespace ApplicationWithAllPatterns
         {
             //StrategyPattern.Make();
             //TemplateMethodPattern.Make();
-            MediatorPattern.MakeWithTemplateMethod();
+            //MediatorPattern.MakeWithTemplateMethod();
+            IteratorPattern.MakeWithTemplateMethod();
         }
 
     }
