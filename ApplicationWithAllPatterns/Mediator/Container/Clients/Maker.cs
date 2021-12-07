@@ -9,13 +9,13 @@ namespace Mediator.Container.Clients
         public static void Make() { 
             Container container = Container.Instance;
 
-            container.Register<ICalc>(new Sum());
-            container.Register<IView>(new ConsoleView());
+            container.Register<ICalc, Sum>();
+            container.Register<IView, ConsoleView>();
 
             Client.ButtonClick();
 
             container.Unregister<ICalc>();
-            container.Register<ICalc>(new Sub());
+            container.Register<ICalc, Sub>();
 
             Client.ButtonClick();
         }
