@@ -10,7 +10,8 @@ namespace ApplicationWithAllPatterns
             //TemplateMethodPattern.Make();
             //MediatorPattern.MakeWithTemplateMethod();
             //IteratorPattern.MakeWithTemplateMethod();
-            ObserverPattern.MakeWithTemplateMethod();
+            //ObserverPattern.MakeWithTemplateMethod();
+            VisiterPatterns.MakeWithTemplateMethod();
         }
 
     }
