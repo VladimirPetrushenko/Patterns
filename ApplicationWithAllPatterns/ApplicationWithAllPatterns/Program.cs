@@ -12,7 +12,8 @@ namespace ApplicationWithAllPatterns
             //IteratorPattern.MakeWithTemplateMethod();
             //ObserverPattern.MakeWithTemplateMethod();
             //VisiterPatterns.MakeWithTemplateMethod();
-            StatePattern.MakeWithTemplateMethod();
+            //StatePattern.MakeWithTemplateMethod();
+            ChainOfResponsibilityPattern.MakeWithTemplateMethod();
         }
 
     }

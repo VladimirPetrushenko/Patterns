@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj" />
     <ProjectReference Include="..\Iterator\Iterator.csproj" />
     <ProjectReference Include="..\Mediator\Mediator.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
