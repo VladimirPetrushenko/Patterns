@@ -11,7 +11,8 @@ namespace ApplicationWithAllPatterns
             //MediatorPattern.MakeWithTemplateMethod();
             //IteratorPattern.MakeWithTemplateMethod();
             //ObserverPattern.MakeWithTemplateMethod();
-            VisiterPatterns.MakeWithTemplateMethod();
+            //VisiterPatterns.MakeWithTemplateMethod();
+            StatePattern.MakeWithTemplateMethod();
         }
 
     }
