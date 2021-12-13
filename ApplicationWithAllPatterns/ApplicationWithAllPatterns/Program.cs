@@ -1,4 +1,5 @@
 ﻿using ApplicationWithAllPatterns.BehaviorPatterns;
+using ApplicationWithAllPatterns.CreationalDesignPatterns;
 
 namespace ApplicationWithAllPatterns
 {
@@ -13,7 +14,9 @@ namespace ApplicationWithAllPatterns
             //ObserverPattern.MakeWithTemplateMethod();
             //VisiterPatterns.MakeWithTemplateMethod();
             //StatePattern.MakeWithTemplateMethod();
-            ChainOfResponsibilityPattern.MakeWithTemplateMethod();
+            //ChainOfResponsibilityPattern.MakeWithTemplateMethod();
+
+            SingletonPattern.MakeWithTemplateMethod();
         }
 
     }

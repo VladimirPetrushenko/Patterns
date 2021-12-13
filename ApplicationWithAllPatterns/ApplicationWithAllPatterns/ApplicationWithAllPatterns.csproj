@@ -10,6 +10,7 @@
     <ProjectReference Include="..\Iterator\Iterator.csproj" />
     <ProjectReference Include="..\Mediator\Mediator.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
+    <ProjectReference Include="..\Singleton\Singleton.csproj" />
     <ProjectReference Include="..\State\State.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
     <ProjectReference Include="..\TemplateMethod\TemplateMethod.csproj" />

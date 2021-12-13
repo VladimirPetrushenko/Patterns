@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{4A1DF7E4-491D-4178-A5BF-27915AB8A98B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehaviorPatterns", "BehaviorPatterns", "{9AFA4336-C6C7-49BC-B263-8E5B012D252D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{9AFA4336-C6C7-49BC-B263-8E5B012D252D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{9AA1D966-3D5F-488D-AEE6-9CEB8C20FC70}"
 EndProject
@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{3CDED5DA-66AF-4AC7-8F08-153EA4D3F07E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{B8DE59FB-34AE-40E0-83B5-40889E230346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{B8DE59FB-34AE-40E0-83B5-40889E230346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{C37BEE51-1AD1-4BFD-9A3A-8613579F3BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{C37BEE51-1AD1-4BFD-9A3A-8613579F3BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalDesignPatterns", "CreationalDesignPatterns", "{0BBE9799-F0FA-47A0-9AB9-EA9AB28098C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{6D59F091-366D-4150-A5CD-02A196C3D972}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,10 @@ Global
 		{C37BEE51-1AD1-4BFD-9A3A-8613579F3BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37BEE51-1AD1-4BFD-9A3A-8613579F3BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C37BEE51-1AD1-4BFD-9A3A-8613579F3BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D59F091-366D-4150-A5CD-02A196C3D972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D59F091-366D-4150-A5CD-02A196C3D972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D59F091-366D-4150-A5CD-02A196C3D972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D59F091-366D-4150-A5CD-02A196C3D972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +86,7 @@ Global
 		{3CDED5DA-66AF-4AC7-8F08-153EA4D3F07E} = {9AFA4336-C6C7-49BC-B263-8E5B012D252D}
 		{B8DE59FB-34AE-40E0-83B5-40889E230346} = {9AFA4336-C6C7-49BC-B263-8E5B012D252D}
 		{C37BEE51-1AD1-4BFD-9A3A-8613579F3BAA} = {9AFA4336-C6C7-49BC-B263-8E5B012D252D}
+		{6D59F091-366D-4150-A5CD-02A196C3D972} = {0BBE9799-F0FA-47A0-9AB9-EA9AB28098C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA05954E-B92B-4C7F-A76D-C19B19C00D72}
