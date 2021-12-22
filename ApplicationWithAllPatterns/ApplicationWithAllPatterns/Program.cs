@@ -17,7 +17,8 @@ namespace ApplicationWithAllPatterns
             //ChainOfResponsibilityPattern.MakeWithTemplateMethod();
 
             //SingletonPattern.MakeWithTemplateMethod();
-            AbstractFactoryPattern.MakeWithTemplateMethod();
+            //AbstractFactoryPattern.MakeWithTemplateMethod();
+            FactoryMethodPatterns.MakeWithTemplateMethod();
         }
 
     }
