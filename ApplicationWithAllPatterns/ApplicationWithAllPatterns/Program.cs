@@ -18,7 +18,8 @@ namespace ApplicationWithAllPatterns
 
             //SingletonPattern.MakeWithTemplateMethod();
             //AbstractFactoryPattern.MakeWithTemplateMethod();
-            FactoryMethodPatterns.MakeWithTemplateMethod();
+            //FactoryMethodPatterns.MakeWithTemplateMethod();
+            BuilderPattern.MakeWithTemplateMethod();
         }
 
     }
