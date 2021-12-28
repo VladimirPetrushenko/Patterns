@@ -1,5 +1,6 @@
 ﻿using ApplicationWithAllPatterns.BehaviorPatterns;
 using ApplicationWithAllPatterns.CreationalDesignPatterns;
+using ApplicationWithAllPatterns.StructuralPatterns;
 
 namespace ApplicationWithAllPatterns
 {
@@ -18,7 +19,9 @@ namespace ApplicationWithAllPatterns
 
             //SingletonPattern.MakeWithTemplateMethod();
             //AbstractFactoryPattern.MakeWithTemplateMethod();
-            FactoryMethodPatterns.MakeWithTemplateMethod();
+            //FactoryMethodPatterns.MakeWithTemplateMethod();
+
+            FacadePattern.MakeWithTemplateMethod();
         }
 
     }

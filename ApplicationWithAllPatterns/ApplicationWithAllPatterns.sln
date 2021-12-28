@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationWithAllPatterns", "ApplicationWithAllPatterns\ApplicationWithAllPatterns.csproj", "{7C6A560E-8B57-4545-9015-190872A03980}"
 EndProject
@@ -28,7 +28,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{051AC430-F99E-4286-A4ED-92DD5D3B3168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{4ED7FB47-9515-4E2D-A531-E08629519963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{4ED7FB47-9515-4E2D-A531-E08629519963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{7E60C051-B676-4B0C-81F0-C32382A82AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{298FCD7D-E7D0-456A-86EA-56DA4EBB1C50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +88,10 @@ Global
 		{4ED7FB47-9515-4E2D-A531-E08629519963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ED7FB47-9515-4E2D-A531-E08629519963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ED7FB47-9515-4E2D-A531-E08629519963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298FCD7D-E7D0-456A-86EA-56DA4EBB1C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298FCD7D-E7D0-456A-86EA-56DA4EBB1C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298FCD7D-E7D0-456A-86EA-56DA4EBB1C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298FCD7D-E7D0-456A-86EA-56DA4EBB1C50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +108,7 @@ Global
 		{6D59F091-366D-4150-A5CD-02A196C3D972} = {0BBE9799-F0FA-47A0-9AB9-EA9AB28098C5}
 		{051AC430-F99E-4286-A4ED-92DD5D3B3168} = {0BBE9799-F0FA-47A0-9AB9-EA9AB28098C5}
 		{4ED7FB47-9515-4E2D-A531-E08629519963} = {0BBE9799-F0FA-47A0-9AB9-EA9AB28098C5}
+		{298FCD7D-E7D0-456A-86EA-56DA4EBB1C50} = {7E60C051-B676-4B0C-81F0-C32382A82AF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA05954E-B92B-4C7F-A76D-C19B19C00D72}
