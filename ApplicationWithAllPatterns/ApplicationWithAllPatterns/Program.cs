@@ -21,7 +21,8 @@ namespace ApplicationWithAllPatterns
             //AbstractFactoryPattern.MakeWithTemplateMethod();
             //FactoryMethodPatterns.MakeWithTemplateMethod();
 
-            FacadePattern.MakeWithTemplateMethod();
+            //FacadePattern.MakeWithTemplateMethod();
+            DecoratorPattern.MakeWithTemplateMethod();
         }
 
     }
