@@ -10,10 +10,14 @@
     <ProjectReference Include="..\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\Composite\Composite.csproj" />
+    <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\Facade\Facade.csproj" />
     <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj" />
     <ProjectReference Include="..\Iterator\Iterator.csproj" />
     <ProjectReference Include="..\Mediator\Mediator.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
+    <ProjectReference Include="..\Proxy\Proxy.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
     <ProjectReference Include="..\State\State.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />

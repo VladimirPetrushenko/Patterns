@@ -23,6 +23,10 @@ namespace ApplicationWithAllPatterns
             //BuilderPattern.MakeWithTemplateMethod();
 
             AdapterPattern.MakeWithTemplateMethod();
+            //FacadePattern.MakeWithTemplateMethod();
+            //DecoratorPattern.MakeWithTemplateMethod();
+            //CompositePattern.MakeWithTemplateMethod();
+            ProxyPattern.MakeWithTemplateMethod();
         }
 
     }
