@@ -2,7 +2,7 @@
 
 namespace Visitor.Animals.WithVisiter
 {
-    public class MainWithVisiter
+    class MainWithVisiter
     {
         public static void Make()
         {

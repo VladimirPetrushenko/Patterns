@@ -2,7 +2,7 @@
 
 namespace Visitor.Numbers_like_Interpretator_.WithoutVisiter
 {
-    public class NumbersMain
+    class NumbersMain
     {
         public static void Make()
         {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Strategy
 {
-    public class ThirdExampleStrategy : IStrategy
+    class ThirdExampleStrategy : IStrategy
     {
         public void Make()
         {

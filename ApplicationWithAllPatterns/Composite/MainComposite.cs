@@ -1,5 +1,6 @@
 ﻿using Composite.Emails;
 using Composite.FileSystems;
+using System;
 
 namespace Composite
 {
@@ -7,6 +8,8 @@ namespace Composite
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Composite\n");
+
             var folder = new Folder("C")
                 .AddItems(new Folder("Windows")
                     .AddItems(new Folder("System32")

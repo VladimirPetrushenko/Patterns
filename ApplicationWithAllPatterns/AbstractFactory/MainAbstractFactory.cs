@@ -1,4 +1,5 @@
 ﻿using AbstractFactory.Common;
+using System;
 
 namespace AbstractFactory
 {
@@ -6,6 +7,8 @@ namespace AbstractFactory
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Abstract factory\n");
+
             var factory = AbstractFactory.GetFactory(true);
 
             var ui = factory.CreateUI(TypeUI.Button);

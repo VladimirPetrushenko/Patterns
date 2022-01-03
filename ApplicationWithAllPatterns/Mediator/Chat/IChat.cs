@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Mediator.Chat
+﻿namespace Mediator.Chat
 {
     interface IChat
     {

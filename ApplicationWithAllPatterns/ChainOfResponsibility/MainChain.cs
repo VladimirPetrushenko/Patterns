@@ -7,6 +7,7 @@ namespace ChainOfResponsibility
     {
         public void Make()
         {
+            Console.WriteLine("Pattern Chain of responsibility");
             PrintResult print = new PrintResult(Start);
             MultFourIfResultMoreThan20 mult = new MultFourIfResultMoreThan20(print.Make);
             AddTwoToResult add = new AddTwoToResult(mult.Make);

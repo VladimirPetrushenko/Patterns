@@ -10,9 +10,7 @@ namespace TemplateMethod
         
         public void Make()
         {
-            Start();
             ToDoSomething();
-            End();
             Console.WriteLine();
         }
     }

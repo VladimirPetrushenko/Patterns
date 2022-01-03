@@ -7,6 +7,8 @@ namespace Proxy
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Proxy\n");
+
             var server = new Server();
             var proxy = new SimpleServerProxy(server);
             var user = new Client();

@@ -1,6 +1,6 @@
 ﻿namespace Observer.University
 {
-    public class Univer
+    class Univer
     {
         public static void Make()
         {

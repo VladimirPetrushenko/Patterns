@@ -7,6 +7,8 @@ namespace Builder
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Builder\n");
+
             var user = new UserBuilder().AddFirstName("Vladimir")
                 .AddSecondName("Vladimirovich").AddLastName("Petrushenko")
                 .AddAge(29).AddSex(Sex.man)

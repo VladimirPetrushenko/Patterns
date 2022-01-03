@@ -9,6 +9,8 @@ namespace Decorator
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Decorator\n");
+
             var pizza = new Pizza();
             var meatPizza = new MeatPizza(pizza);
             var cheeseMeatPizza = new Cheese(meatPizza);

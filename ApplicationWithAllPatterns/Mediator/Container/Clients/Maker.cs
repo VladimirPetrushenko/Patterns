@@ -4,7 +4,7 @@ using Mediator.Container.Views;
 
 namespace Mediator.Container.Clients
 {
-    public class Maker
+    internal class Maker
     {
         public static void Make() { 
             Container container = Container.Instance;

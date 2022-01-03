@@ -1,21 +1,12 @@
-﻿using Strategy;
-using System;
-using TemplateMethod.Strategy;
+﻿using TemplateMethod;
 
 namespace ApplicationWithAllPatterns.BehaviorPatterns
 {
     static class TemplateMethodPattern
     {
-        public static void Make()
+        public static void MakeWithTemplateMethod()
         {
-            var templateMethod = new TemplateMethodWithStrategy(new FirstExampleStrategy());
-            templateMethod.Make();
-
-            templateMethod = new TemplateMethodWithStrategy(new SecondExampleStrategy());
-            templateMethod.Make();
-
-            templateMethod = new TemplateMethodWithStrategy(new ThirdExampleStrategy());
-            templateMethod.Make();
+            FunctionalTemplateMethod.Make(MainTemplateMethod.Make);
         }
     }
 }

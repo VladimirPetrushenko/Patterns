@@ -6,6 +6,8 @@ namespace Singleton
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Factory method\n");
+
             Video video = new Video();
             Console.WriteLine(video.Picture);
 

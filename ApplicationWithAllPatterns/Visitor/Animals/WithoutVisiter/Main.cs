@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Visitor.Animals.WithoutVisiter
 {
-    public class Main
+    class Main
     {
         public static void Make()
         {

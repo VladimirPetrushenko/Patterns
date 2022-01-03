@@ -3,7 +3,7 @@ using System;
 
 namespace Strategy
 {
-    public class SecondExampleStrategy : IStrategy
+    class SecondExampleStrategy : IStrategy
     {
         public void Make()
         {

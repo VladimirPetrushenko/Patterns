@@ -2,7 +2,7 @@
 
 namespace Iterator
 {
-    public class Fibonacci
+    internal class Fibonacci
     {
         public static IEnumerable<int> GenerateFibonacci(int count)
         {

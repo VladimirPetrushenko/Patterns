@@ -8,24 +8,24 @@ namespace ApplicationWithAllPatterns
     {
         static void Main(string[] args)
         {
-            //StrategyPattern.Make();
-            //TemplateMethodPattern.Make();
-            //MediatorPattern.MakeWithTemplateMethod();
-            //IteratorPattern.MakeWithTemplateMethod();
-            //ObserverPattern.MakeWithTemplateMethod();
-            //VisiterPatterns.MakeWithTemplateMethod();
-            //StatePattern.MakeWithTemplateMethod();
-            //ChainOfResponsibilityPattern.MakeWithTemplateMethod();
+            StrategyPattern.MakeWithTemplateMethod();
+            TemplateMethodPattern.MakeWithTemplateMethod();
+            MediatorPattern.MakeWithTemplateMethod();
+            IteratorPattern.MakeWithTemplateMethod();
+            ObserverPattern.MakeWithTemplateMethod();
+            VisiterPatterns.MakeWithTemplateMethod();
+            StatePattern.MakeWithTemplateMethod();
+            ChainOfResponsibilityPattern.MakeWithTemplateMethod();
 
-            //SingletonPattern.MakeWithTemplateMethod();
-            //AbstractFactoryPattern.MakeWithTemplateMethod();
-            //FactoryMethodPatterns.MakeWithTemplateMethod();
-            //BuilderPattern.MakeWithTemplateMethod();
+            SingletonPattern.MakeWithTemplateMethod();
+            AbstractFactoryPattern.MakeWithTemplateMethod();
+            FactoryMethodPatterns.MakeWithTemplateMethod();
+            BuilderPattern.MakeWithTemplateMethod();
 
             AdapterPattern.MakeWithTemplateMethod();
-            //FacadePattern.MakeWithTemplateMethod();
-            //DecoratorPattern.MakeWithTemplateMethod();
-            //CompositePattern.MakeWithTemplateMethod();
+            FacadePattern.MakeWithTemplateMethod();
+            DecoratorPattern.MakeWithTemplateMethod();
+            CompositePattern.MakeWithTemplateMethod();
             ProxyPattern.MakeWithTemplateMethod();
         }
 

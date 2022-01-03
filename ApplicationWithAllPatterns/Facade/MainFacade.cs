@@ -1,4 +1,5 @@
 ﻿using Facade.Engines;
+using System;
 
 namespace Facade
 {
@@ -6,6 +7,8 @@ namespace Facade
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Facade\n");
+
             Car car = new Car();
             CarFacad facad = new CarFacad(car);
 

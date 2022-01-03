@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Mediator.Chat
+﻿namespace Mediator.Chat
 {
-    public static class ChatRoom
+    internal static class ChatRoom
     {
         public static void Make()
         {

@@ -1,5 +1,6 @@
 ﻿using Adapter.Animals;
 using Adapter.Cars;
+using System;
 using System.Collections.Generic;
 
 namespace Adapter
@@ -8,6 +9,8 @@ namespace Adapter
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Adapter\n");
+
             var AdapterList = new List<IAdapter>()
             {
                 new CarAdapter(new BMV()),

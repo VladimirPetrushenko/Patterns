@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Observer.SocialNerworkWithEvent
 {
-    public class TicToc
+    class TicToc
     {
         public static void Make()
         {

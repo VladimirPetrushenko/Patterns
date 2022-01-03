@@ -19,7 +19,9 @@ namespace Mediator.Container
         public void Register<T, U>()
             where U : T, new()
             => dic.Add(typeof(T), new U());
+
         public void Unregister<T>() => dic.Remove(typeof(T));
+
         public T Extract<T>() => (T)dic[typeof(T)];
     }
 }

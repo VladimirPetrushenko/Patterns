@@ -1,6 +1,6 @@
 ﻿namespace Observer.SocialNetworks
 {
-    public class TicTocWithoutEvents
+    class TicTocWithoutEvents
     {
         public static void Make()
         {

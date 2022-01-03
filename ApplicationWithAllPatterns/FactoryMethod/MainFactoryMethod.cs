@@ -1,7 +1,5 @@
 ﻿using FactoryMethod.FactoryMethodWithFactory;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FactoryMethod
 {
@@ -9,6 +7,8 @@ namespace FactoryMethod
     {
         public static void Make()
         {
+            Console.WriteLine("Pattern Factory method\n");
+
             var car = CarFactory.Create(TypeCar.CommonCar);
             car.Make();
 
